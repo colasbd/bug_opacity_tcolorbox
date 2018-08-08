@@ -1,0 +1,10 @@
+\documentclass[10pt]{article}
+\usepackage[most]{tcolorbox}
+\usepackage{graphicx}
+
+\newtcbox{\mytransparentbox}{blank, on line, opacitytext=0.4}
+
+\begin{document}
+\includegraphics[scale=0.1]{engine}
+\mytransparentbox{\includegraphics[scale=0.1]{engine}}
+\end{document}
